@@ -1,0 +1,42 @@
+li {
+  /* max-width: 100%; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-basis: 100%; */
+  flex-grow: 1;
+  padding: 8px 5px;
+  font-size: 1.2rem;
+  background: #181818;
+  border-radius: 5px;
+  /* margin: 4px; */
+}
+
+li .left-group {
+  display: flex;
+  /* align-items: center; */
+  flex-basis: 60%;
+  margin-left: 3px;
+}
+
+li .left-group .checkbox {
+  font-size: 1.2rem;
+}
+
+li .left-group .checkbox,
+li .right-group .delete-btn {
+  margin-right: 8px;
+}
+
+li .right-group {
+  display: flex;
+  flex-basis: 13%;
+}
+
+li button {
+  background: transparent;
+  font-size: 1rem;
+  color: #ccc;
+  border: 0;
+  outline: 0;
+}

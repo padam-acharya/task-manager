@@ -1,0 +1,19 @@
+header {
+  color: #fff;
+}
+
+.heading {
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+.date {
+  font-size: 1.3rem;
+  margin-top: 20px;
+  margin-left: 20px;
+}

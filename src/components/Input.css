@@ -1,0 +1,37 @@
+.todo-input {
+  min-width: 30rem;
+  box-shadow: 2px 3px 10px rgba(255, 255, 255, 0.2);
+  /* outline: 2px solid green; */
+}
+
+.todo-input input {
+  padding: 10px;
+  outline: none;
+  border: 0;
+  width: 80%;
+  border-radius: 4px 0 0 4px;
+  font-size: 1.1rem;
+}
+.todo-input button {
+  width: 20%;
+  padding: 10px 18px;
+  border-radius: 0 4px 4px 0;
+  outline: none;
+  border: 0;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.todo-input button:hover {
+  background-color: transparent;
+  color: #fff;
+  font-weight: 600;
+}
+
+@media (max-width: 500px) {
+  .todo-input {
+    min-width: 23rem;
+  }
+}
